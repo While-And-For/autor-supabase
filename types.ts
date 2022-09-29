@@ -48,6 +48,12 @@ export interface Price {
   products?: Product;
 }
 
+// TODO hash out plan layout
+export interface Plan {
+  id: string;
+  product: string;
+}
+
 export interface PriceWithProduct extends Price {}
 
 export interface Subscription {
